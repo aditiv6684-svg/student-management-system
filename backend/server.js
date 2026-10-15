@@ -156,4 +156,3 @@ async function startServer() {
 }
 
 startServer();
-node server.js
