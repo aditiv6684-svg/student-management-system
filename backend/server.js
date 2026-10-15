@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv").config();
 
-const Student = require("./models/Student");
+const Student = require('./models/student');
 
 const app = express();
 
@@ -156,3 +156,4 @@ async function startServer() {
 }
 
 startServer();
+node server.js
